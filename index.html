@@ -13,7 +13,7 @@
             <div class="flex-container">
               <div class="voorraad">
                <h3>Voorraad</h3>
-                <div id="piechart_3d"></div>
+                <div id="piechart_3d">
                    <script>
                  google.charts.load("current", {packages:["corechart"]});
           google.charts.setOnLoadCallback(drawChart);
@@ -33,6 +33,7 @@
             chart.draw(data, options);
           }
                 </script>
+                  </div>
             </div>
                 <div class="afstand">
                     <h3>Afstand over tijd in KM</h3>
