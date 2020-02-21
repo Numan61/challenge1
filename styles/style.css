@@ -32,7 +32,6 @@ h3{
   background-color: black;
   margin: 10px;
   padding: 15px;
-  font-size: 30px;
   display: inline-block;
 }
 
@@ -53,14 +52,13 @@ h3{
         font-size: 30px;
     }
     
-
-
-    
 }
 
 
 @media only screen and (min-width: 1366px){
-
+    .flex-containter{
+        flex-direction: row;
+    }
 
 }
 
