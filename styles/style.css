@@ -37,26 +37,13 @@ h3{
 }
 
 
-
-#piechart_3d{
-    color: dimgrey;
-    width:90%;
-    height: auto;
-}
-
 .voorraad{
-    width:90%;
-    height: auto;
 }
 
 .afstand{
-    width:90%;
-    height:auto;
 }
 
 .brandstof{
-    width:90%;
-    height: auto;
 }
 
 
@@ -67,34 +54,13 @@ h3{
     }
     
 
+
     
 }
 
 
 @media only screen and (min-width: 1366px){
-    
-      h1{
-        font-size: 36px;
-    }
-  
-    .flex-container {
-  display: flex;
-  flex-direction: row;
-}
-       .flex-container > div {
-  width:300px;
-            margin-left: 200px;
-}
-    #piechart_3d{
-    width:300px;
-    height:300px;
-}
-    
-    .afstand{
-        width:500px;
-        height: auto;
-    }
-    
+
 
 }
 
