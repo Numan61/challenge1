@@ -1,0 +1,126 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    background-color: #5E5A5A;
+}
+
+  h1{
+        font-size: 26px;
+      color: white;
+      text-align: center;
+      padding: 1%;
+      display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+    }
+
+h3{
+    font-size: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+
+}
+.flex-container > div {
+  background-color: black;
+  margin: 10px;
+  padding: 15px;
+  font-size: 30px;
+  display: inline-block;
+}
+
+
+
+#piechart_3d{
+    color: dimgrey;
+    width:250px;
+    height:auto;
+}
+
+.voorraad{
+    width:250px;
+    height: auto;
+}
+
+.afstand{
+    width:250px;
+    height:auto;
+}
+
+.brandstof{
+    width:250px;
+    height: auto;
+}
+
+
+@media only screen and (min-width: 768px){
+  
+    h1{
+        font-size: 30px;
+    }
+    
+      #piechart_3d{
+    width:90%;
+    height:auto;
+}
+    
+    .voorraad{
+        width:90%;
+        height: auto;
+    }
+    
+    .afstand{
+        width:90%;
+        height: auto;
+    }
+    
+    .brandstof{
+        width: 90%;
+        height:auto;
+    }
+
+    
+}
+
+
+@media only screen and (min-width: 1366px){
+    
+      h1{
+        font-size: 36px;
+    }
+  
+    .flex-container {
+  display: flex;
+  flex-direction: row;
+}
+       .flex-container > div {
+  width:300px;
+            margin-left: 200px;
+}
+    #piechart_3d{
+    width:300px;
+    height:300px;
+}
+    
+    .afstand{
+        width:500px;
+        height: auto;
+    }
+    
+
+}
+
+@media only screen and (min-width: 1920px){
+    h1{
+        font-size: 40px;
+    }
+    
+    
+}
